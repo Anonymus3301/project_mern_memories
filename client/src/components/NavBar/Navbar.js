@@ -43,7 +43,7 @@ function Navbar() {
           variant="h2"
           align="center"
         >
-          Memories
+          Snap Store
         </Typography>
         <img className={classes.image} src={memories} alt="icon" height="60" />
       </div>
