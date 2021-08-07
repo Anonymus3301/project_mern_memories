@@ -56,7 +56,9 @@ function Auth() {
     try {
       dispatch({ type: "AUTH", data: { result, token } });
       history.push("/");
-    } catch (error) {}
+    } catch (error) {
+      console.log(error);
+    }
   };
   const googleFailure = () => {
     console.log("Google Sign In was unsuccessful.Try Again Later");
